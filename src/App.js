@@ -24,6 +24,8 @@ function App() {
   // const message90 = "Damn, you're hella broke! Just facts";
   // const message100 = "RIP. Move in with your parents";
 
+  // alt emoji approach as per: https://medium.com/@seanmcp/%EF%B8%8F-how-to-use-emojis-in-react-d23bbf608bf7
+
 
   const message0 = "🤣 Sit back and smile at the misery of all your crypto bros";
   const message10 = "😁 Your very mild risk taking must be making you feel pretty dope right now";
