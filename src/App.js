@@ -11,6 +11,19 @@ function App() {
     setValue(newValue);
   };
 
+  const message0 = "Insert comment (0%)";
+  const message10 = "Insert comment (10%)";
+  const message20 = "Insert comment (20%)";
+  const message30 = "Insert comment (30%)";
+  const message40 = "Insert comment (40%)";
+  const message50 = "Insert comment (50%)";
+  const message60 = "Insert comment (60%)";
+  const message70 = "Insert comment (70%)";
+  const message80 = "Insert comment (80%)";
+  const message90 = "Insert comment (90%)";
+  const message100 = "Insert comment (100%)";
+
+
   return (
     <div className="App">
         <p>
@@ -31,72 +44,17 @@ function App() {
             />
         </div>
 
-        {/* TODO: turn into re-usable component */}
-        {value === 0 && (
-                <p>
-                Insert comment here
-              </p>
-        )}
-
-        {value === 10 && (
-                <p>
-                Insert comment here
-              </p>
-        )}
-
-        {value === 20 && (
-                <p>
-                Insert comment here
-              </p>
-        )}
-
-        {value === 30 && (
-                <p>
-                Insert comment here
-              </p>
-        )}
-
-        {value === 40  && (
-                <p>
-                Insert comment here
-              </p>
-        )}
-
-        {value === 50 && (
-                <p>
-                Insert comment here
-              </p>
-        )}
-
-        {value === 60 && (
-                <p>
-                Insert comment here
-              </p>
-        )}
-
-        {value === 70 && (
-                <p>
-                Insert comment here
-              </p>
-        )}
-
-        {value === 80 && (
-                <p>
-                Insert comment here
-              </p>
-        )}
-
-        {value === 90 && (
-                <p>
-                Insert comment here (90 percent!)
-              </p>
-        )}
-
-        {value === 100 && (
-                <p>
-                This is where the text goes based on your amount.
-              </p>
-        )}
+        {value === 0 && (<p>{message0}</p>)}
+        {value === 10 && (<p>{message10}</p>)}
+        {value === 20 && (<p>{message20}</p>)}
+        {value === 30 && (<p>{message30}</p>)}
+        {value === 40 && (<p>{message40}</p>)}
+        {value === 50 && (<p>{message50}</p>)}
+        {value === 60 && (<p>{message60}</p>)}
+        {value === 70 && (<p>{message70}</p>)}
+        {value === 80 && (<p>{message80}</p>)}
+        {value === 90 && (<p>{message90}</p>)}
+        {value === 100 && (<p>{message100}</p>)}
 
     </div>
   );
