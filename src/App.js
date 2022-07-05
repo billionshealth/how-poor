@@ -1,6 +1,7 @@
 import './App.css';
 import { useState } from 'react';
 import Slider from '@mui/material/Slider';
+import Emoji from './components/Emoji';
 
 
 function App() {
@@ -11,17 +12,30 @@ function App() {
     setValue(newValue);
   };
 
-  const message0 = "🤣 Sit back and smile at the misery of all your crypto bros";
-  const message10 = "😁 Your very mild risk taking must be making you feel pretty dope right now";
-  const message20 = "😜 You got out pretty okay, didnt ya?";
-  const message30 = "😀 Eh, hope you got some good profile pics along the way";
-  const message40 = "🙄 There goes the kids' college fund...";
-  const message50 = "🤠 Well, there's always vegas";
-  const message60 = "😨 Hope you didn't leave that day job";
-  const message70 = "😥 You wanted that Lambo, didn't ya? Hope you like noodles";
-  const message80 = "💩 Ouch, you should call your nearest McDonald's before the vacancies fill out";
-  const message90 = "🥵 Damn, you're hella broke! Just facts";
-  const message100 = "💀 RIP. Move in with your parents";
+  const message0 = "Sit back and smile at the misery of all your crypto bros";
+  const message10 = "Your very mild risk taking must be making you feel pretty dope right now";
+  const message20 = "You got out pretty okay, didnt ya?";
+  const message30 = "Eh, hope you got some good profile pics along the way";
+  const message40 = "There goes the kids' college fund...";
+  const message50 = "Well, there's always vegas";
+  const message60 = "Hope you didn't leave that day job";
+  const message70 = "You wanted that Lambo, didn't ya? Hope you like noodles";
+  const message80 = "Ouch, you should call your nearest McDonald's before the vacancies fill out";
+  const message90 = "Damn, you're hella broke! Just facts";
+  const message100 = "RIP. Move in with your parents";
+
+
+  // const message0 = "🤣 Sit back and smile at the misery of all your crypto bros";
+  // const message10 = "😁 Your very mild risk taking must be making you feel pretty dope right now";
+  // const message20 = "😜 You got out pretty okay, didnt ya?";
+  // const message30 = "😀 Eh, hope you got some good profile pics along the way";
+  // const message40 = "🙄 There goes the kids' college fund...";
+  // const message50 = "🤠 Well, there's always vegas";
+  // const message60 = "😨 Hope you didn't leave that day job";
+  // const message70 = "😥 You wanted that Lambo, didn't ya? Hope you like noodles";
+  // const message80 = "💩 Ouch, you should call your nearest McDonald's before the vacancies fill out";
+  // const message90 = "🥵 Damn, you're hella broke! Just facts";
+  // const message100 = "💀 RIP. Move in with your parents";
 
 
   return (
