@@ -17,7 +17,7 @@ function App() {
           How much of your net worth was in crypto?
         </p>
 
-        <div className="Slider">
+        <div className="Slider-div">
             <Slider 
             aria-label="Temperature"
             value={value}
@@ -27,9 +27,11 @@ function App() {
             marks
             min={0}
             max={100}
+            className="Slider-element"
             />
         </div>
 
+        {/* TODO: turn into re-usable component */}
         {value === 0 && (
                 <p>
                 Insert comment here

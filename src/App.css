@@ -10,8 +10,12 @@
   color: white;
 }
 
-.Slider {
+.Slider-div {
   width: 80%;
+}
+
+.Slider-element {
+  background: linear-gradient(90deg,blue,green,red);
 }
 
 @media (prefers-reduced-motion: no-preference) {
