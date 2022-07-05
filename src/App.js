@@ -17,16 +17,18 @@ function App() {
           How much of your net worth was in crypto?
         </p>
 
-        <Slider 
-        aria-label="Temperature"
-        value={value}
-        valueLabelDisplay="auto"
-        onChange={handleChange}
-        step={10}
-        marks
-        min={0}
-        max={100}
-        />
+        <div className="Slider">
+            <Slider 
+            aria-label="Temperature"
+            value={value}
+            valueLabelDisplay="auto"
+            onChange={handleChange}
+            step={10}
+            marks
+            min={0}
+            max={100}
+            />
+        </div>
 
         {value === 0 && (
                 <p>

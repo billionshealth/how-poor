@@ -10,9 +10,8 @@
   color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Slider {
+  width: 80%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
