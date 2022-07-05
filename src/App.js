@@ -10,10 +10,7 @@ function App() {
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
-    // console.log(newValue)
   };
-
-  // TODO: add conditional mapping based on slider value
 
   return (
     <div className="App">
