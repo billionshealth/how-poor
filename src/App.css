@@ -1,4 +1,4 @@
-.App {
+.Container {
   text-align: center;
   background-color: #282c34;
   min-height: 100vh;
@@ -17,6 +17,8 @@
 .Slider-element {
   background: linear-gradient(90deg,blue,green,red);
 }
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

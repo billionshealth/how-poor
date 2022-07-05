@@ -25,37 +25,40 @@ function App() {
 
 
   return (
-    <div className="App">
-        <p>
-          How much of your net worth was in crypto?
-        </p>
+    <div className="Container">
+          <h1>
+            How poor am I today?
+          </h1>
 
-        <div className="Slider-div">
-            <Slider 
-            aria-label="Temperature"
-            value={value}
-            valueLabelDisplay="auto"
-            onChange={handleChange}
-            step={10}
-            marks
-            min={0}
-            max={100}
-            className="Slider-element"
-            />
-        </div>
+          <p>
+            How much of your net worth was in crypto?
+          </p>
 
-        {value === 0 && (<p>{message0}</p>)}
-        {value === 10 && (<p>{message10}</p>)}
-        {value === 20 && (<p>{message20}</p>)}
-        {value === 30 && (<p>{message30}</p>)}
-        {value === 40 && (<p>{message40}</p>)}
-        {value === 50 && (<p>{message50}</p>)}
-        {value === 60 && (<p>{message60}</p>)}
-        {value === 70 && (<p>{message70}</p>)}
-        {value === 80 && (<p>{message80}</p>)}
-        {value === 90 && (<p>{message90}</p>)}
-        {value === 100 && (<p>{message100}</p>)}
+          <div className="Slider-div">
+              <Slider 
+              aria-label="Temperature"
+              value={value}
+              valueLabelDisplay="auto"
+              onChange={handleChange}
+              step={10}
+              marks
+              min={0}
+              max={100}
+              className="Slider-element"
+              />
+          </div>
 
+          {value === 0 && (<p>{message0}</p>)}
+          {value === 10 && (<p>{message10}</p>)}
+          {value === 20 && (<p>{message20}</p>)}
+          {value === 30 && (<p>{message30}</p>)}
+          {value === 40 && (<p>{message40}</p>)}
+          {value === 50 && (<p>{message50}</p>)}
+          {value === 60 && (<p>{message60}</p>)}
+          {value === 70 && (<p>{message70}</p>)}
+          {value === 80 && (<p>{message80}</p>)}
+          {value === 90 && (<p>{message90}</p>)}
+          {value === 100 && (<p>{message100}</p>)}
     </div>
   );
 }
