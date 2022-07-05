@@ -11,17 +11,17 @@ function App() {
     setValue(newValue);
   };
 
-  const message0 = "Insert comment (0%)";
-  const message10 = "Insert comment (10%)";
-  const message20 = "Insert comment (20%)";
-  const message30 = "Insert comment (30%)";
-  const message40 = "Insert comment (40%)";
-  const message50 = "Insert comment (50%)";
-  const message60 = "Insert comment (60%)";
-  const message70 = "Insert comment (70%)";
-  const message80 = "Insert comment (80%)";
-  const message90 = "Insert comment (90%)";
-  const message100 = "Insert comment (100%)";
+  const message0 = "🤣 Sit back and smile at the misery of all your crypto bros";
+  const message10 = "😁 Your very mild risk taking must be making you feel pretty dope right now";
+  const message20 = "😜 You got out pretty okay, didnt ya?";
+  const message30 = "😀 Eh, hope you got some good profile pics along the way";
+  const message40 = "🙄 There goes the kids' college fund...";
+  const message50 = "🤠 Well, there's always vegas";
+  const message60 = "😨 Hope you didn't leave that day job";
+  const message70 = "😥 You wanted that Lambo, didn't ya? Hope you like noodles";
+  const message80 = "💩 Ouch, you should call your nearest McDonald's before the vacancies fill out";
+  const message90 = "🥵 Damn, you're hella broke! Just facts";
+  const message100 = "💀 RIP. Move in with your parents";
 
 
   return (
